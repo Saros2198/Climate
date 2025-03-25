@@ -49,10 +49,10 @@ function displayWeather(data, city) {
     document.getElementById('error-message').classList.add('hidden');
     document.getElementById('weather-info').classList.remove('hidden');
 
-    document.getElementById('city-name').textContent = `${city}`;
-    document.getElementById('temperature').textContent = `Temperature: ${data.temperature}°C`;
-    document.getElementById('humidity').textContent = `Humidity: ${data.humidity}%`;
-    document.getElementById('weather-description').textContent = `Weather: ${data.description}`;
+    document.getElementById('city-name').textContent = ${city};
+    document.getElementById('temperature').textContent = Temperature: ${data.temperature}°C;
+    document.getElementById('humidity').textContent = Humidity: ${data.humidity}%;
+    document.getElementById('weather-description').textContent = Weather: ${data.description};
 }
 
 // Function to show error messages
